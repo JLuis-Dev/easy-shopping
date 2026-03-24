@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container-left {
+    display: inline-block;
+    width: 60%;
+    margin-top: 20%;
+    padding-left: 136px;
+}
+
+.container-right {
+    display: inline-block;
+    background-color: rgba(93,93,125,0.16);
+    height: 100vh;
+    width: 40%;
+    position: absolute;
+}
+
+img {
+    position: relative;
+    top:25%;
+    right: 130px;
+}
+
+h1 {
+    font-size: 78px;
+    line-height: 80px;
+    color: #5d5d7d;
+    width: 368px;
+}
+
+p {
+    font-size: 28px;
+    line-height: 48px;
+    color: #5d5d7d;
+    margin: 15px 0;
+    width: 540px;
+}
+
+button {
+    width: 269px;
+    height: 62px;
+    background: #9499ea;
+    box-shadow: 0px 18px 24px rgba(152, 165, 197, 0.4);
+    border-radius: 38px;
+    border: none;
+    font-size: 28px;
+    line-height: 42px;
+    color: #ffffff;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: .8;
+}
+
+button:active {
+    opacity: .5;
+}
+
+a {
+    font-size: 28px;
+    line-height: 41px;
+    color: #5d5d7d;
+    margin-right: 41px;
+    cursor: pointer;
+}
+
+a:nth-child(2) {
+    opacity: .4;
+}
+
+a:hover {
+    opacity: .4;
+}
+a:active {
+    opacity: .8;
+}
+
+header {
+    margin: 24px 0 0 57px;
+}
+
+@media screen  and (max-width: 390px) {
+
+    .wrapper {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 52px;
+        width: auto;
+        text-align: center;
+        width: 268px;
+        height: 104px;
+        margin: 58px 53px 0 44px;
+    }
+
+    p {
+        width: 296px;
+        height: 96px;
+        font-size: 14px;
+        line-height: 24px;
+        margin: 15px 40px 0 26px;
+        text-align: center;
+        opacity: .6;
+
+    }
+
+    button {
+        margin-right: 50px;
+    }
+
+
+
+    
+    .container-left {
+        width: 100%;
+        height: 50%;
+        margin-top: 50px;
+        padding: 0;
+        text-align: center;
+    }
+    .container-right {
+        width: 100%;
+        height: auto;
+        position: static;
+    }
+    img {
+        position: static;
+        width: 271px;
+        height: 322.95px;
+        margin: 40px 0 50px 30px;
+    }
+    header {
+        display: none;
+    }
+    
+}
