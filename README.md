@@ -6,3 +6,5 @@
 </h2>
 
 <img src="https://github.com/JLuis-Dev/easy-shopping/blob/main/assets/Easy-Shopping-Mobile.png?raw=true"/>
+<img src="https://github.com/JLuis-Dev/easy-shopping/blob/main/assets/Easy-Shopping-Web.png?raw=true"/>
+
